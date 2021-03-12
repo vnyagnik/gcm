@@ -1,70 +1,61 @@
 import React, { Component } from "react";
 
-
-function LandingPage(){ 
+const LandingPage = () => { 
     return (
         <div>
-    <div id="preloader">
-        <div  className="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-    <div className="welcome-area" id="welcome">
-        <div  className="header-text">
-            <div  className="container">
-                <div  className="row">
-                    <div  className="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                        <h1>Global Covid Management helps to grow up your <strong>business</strong></h1>
-                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
-                        for your company at absolutely free of charge</p>
-                        <a href="#features"  className="main-button-slider">Discover More</a>
+            <div className="welcome-area" id="welcome">
+                <div  className="header-text">
+                    <div  className="container">
+                        <div  className="row">
+                            <div  className="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
+                                <h1>Global Covid Management helps to grow up your <strong>business</strong></h1>
+                                <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
+                                for your company at absolutely free of charge</p>
+                                <a href="#features"  className="main-button-slider">Discover More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <section  className="section home-feature">
-        <div  className="container">
-            <div  className="row">
-                <div  className="col-lg-12">
+            <section  className="section home-feature">
+                <div  className="container">
                     <div  className="row">
-                        <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                            <div  className="features-small-item">
-                                <div  className="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                        <div  className="col-lg-12">
+                            <div  className="row">
+                                <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
+                                    <div  className="features-small-item">
+                                        <div  className="icon">
+                                            <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                                        </div>
+                                        <h5  className="features-title">Modern Strategy</h5>
+                                        <p>Customize anything in this template to fit your website needs</p>
+                                    </div>
                                 </div>
-                                <h5  className="features-title">Modern Strategy</h5>
-                                <p>Customize anything in this template to fit your website needs</p>
-                            </div>
-                        </div>
 
-                        <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                            <div  className="features-small-item">
-                                <div  className="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                                <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
+                                    <div  className="features-small-item">
+                                        <div  className="icon">
+                                            <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                                        </div>
+                                        <h5  className="features-title">Best Relationship</h5>
+                                        <p>Contact us immediately if you have a question in mind</p>
+                                    </div>
                                 </div>
-                                <h5  className="features-title">Best Relationship</h5>
-                                <p>Contact us immediately if you have a question in mind</p>
-                            </div>
-                        </div>
 
-                        <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                            <div  className="features-small-item">
-                                <div  className="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                                <div  className="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
+                                    <div  className="features-small-item">
+                                        <div  className="icon">
+                                            <i><img src="assets/images/featured-item-01.png" alt=""/></i>
+                                        </div>
+                                        <h5  className="features-title">Ultimate Marketing</h5>
+                                        <p>You just need to tell your friends about our free templates</p>
+                                    </div>
                                 </div>
-                                <h5  className="features-title">Ultimate Marketing</h5>
-                                <p>You just need to tell your friends about our free templates</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+            </section>
 
     <section  className="section padding-top-70 padding-bottom-0" id="features">
         <div  className="container">

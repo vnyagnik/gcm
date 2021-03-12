@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function NavBar(data){ 
     return (
@@ -10,12 +10,13 @@ function NavBar(data){
                         <a href="#" className="logo">
                             <img src="assets/images/logo.png" alt="Softy Pinko"/>
                         </a>
-                        <ul  className="nav">
-                            <li><Link to="">Home</Link></li>
-                            <li><Link to="/dashboard">Dashboard</Link></li>
-                            {data.user == null && (<li><Link to="/login">Login</Link></li>)}
-                            {data.user && (<li><Link to="/" > {data.user}, Logout</Link></li>)}
-                        </ul>
+                        <nav>
+                            <ul  className="nav">
+                                <li><NavLink exact to="/">Home</NavLink></li>
+                                <li><NavLink to="/dashboard">Dashboard</NavLink></li>
+                                <li><NavLink to="/login">Login</NavLink></li>
+                            </ul>
+                        </nav>
                         <a  className='menu-trigger'>
                             <span>Menu</span>
                         </a>
